@@ -29,7 +29,7 @@ footer
     bottom: 0;
     height: 15%;
     width: 100%;
-    text-align: center;
+    clear: both;
 }
 nav
 {
@@ -38,15 +38,56 @@ nav
     width: 100%;
     font-size: 35px;
 }
-a
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover 
+  {
+    background-color: #111;
+  }
+  .active 
+  {
+    background-color: #04AA6D;
+  }
+  
+
+.MiddlePhotos
+{
+    width: 33%;
+    height: 400px;
+}
+header
+{
+    background-image: url(../Images/Glen_Head.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.links
 {
     text-decoration: none;
     text-align: center;
     font-size: 35px;
     color: black;
 }
-.MiddlePhotos
+.column 
 {
-    width: 33%;
-    height: 400px;
+    float: left;
+    width: 33.33%;
+    text-align: center;
 }
